@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Mar 05, 2017 at 11:37 PM
+-- Generation Time: Mar 05, 2017 at 11:47 PM
 -- Server version: 5.5.54-0+deb8u1
 -- PHP Version: 5.6.30-0+deb8u1
 
@@ -17,8 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `test`
+-- Database: `SMS`
 --
+CREATE DATABASE IF NOT EXISTS `SMS` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `SMS`;
 
 -- --------------------------------------------------------
 
@@ -26,6 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `SMS_Gateways`
 --
 
+DROP TABLE IF EXISTS `SMS_Gateways`;
 CREATE TABLE IF NOT EXISTS `SMS_Gateways` (
   `Country` varchar(53) DEFAULT NULL,
   `Region` varchar(17) DEFAULT NULL,
