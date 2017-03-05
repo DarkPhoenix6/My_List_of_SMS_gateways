@@ -1,4 +1,4 @@
-Country,Region,Carrier,Format,Mail/Web-to-SMS gateway,Notes,SMS-to-Email Gateway,Notes,Reference
+Country,Region,Carrier,Format,Mail/Web-to-SMS gateway,Notes,SMS-to-Email Gateway,Message-Notes,Reference
 Argentina,,CTI Móvil (Now Claro),SMS,number@sms.ctimovil.com.ar,,,,http://www.cti.com.ar/home
 Argentina,,Movistar,SMS,number@sms.movistar.net.ar,,,,http://www.movistar.com.ar/??
 Argentina,,Nextel,SMS,TwoWay.11number@nextel.net.ar,,,,http://www.nextel.com.ar/
